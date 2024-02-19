@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face{
+	font-family: "Caveat";
+	src: url("../fonts/Caveat-Regular.woff2 ") format('woff2'), url("../fonts/Caveat-Regular.woff") format('woff');
+	font-display: swap;
+	font-weight:400;
+	font-style: italic;
+}
+
+@font-face{
+	font-family: "Caveat";
+	src: url("../fonts/Caveat-Bolt.woff2 ") format('woff2'), url("../fonts/Caveat-Bolt.woff") format('woff');
+	font-display: swap;
+	font-weight:700;
+	font-style: italic;
+}
+body {
+	font-family: "Caveat";
+	font-weight: 400;
+	color: rgba(68, 57, 50, 0.877);
+	font-size: 20px;
+	background-color: #d67d35b0;
+}
+header{
+	font-size: 60px;
+	text-align: right;
+}
+.main-image{
+	padding: 20px;
+}
+.title{
+	font-family: "Playfair Display";
+	color:rgba(175, 85, 11, 0.836) ;
+	text-shadow: 5px 5px 5px ;
+	text-align: center ;
+	text-decoration:underline;
+	font-weight: 700;
+	padding: 20px;
+}
+.text{
+	text-align:left;
+}
+.style{
+	text-align:right;
+	white-space: normal;
+}
+.lesson{
+	text-decoration:underline;
+	white-space: nowrap;
+}
+.bold {
+	margin: 20px;
+	background-color: #d67d35b0;
+	text-transform: capitalize ;
+}
+p {
+	color: rgb(92, 65, 7);
+}
+h4 {
+	font-family: "Caveat";
+	font-size: 25px ;
+	text-align: center ;
+	padding: 10px;
+}
